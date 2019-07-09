@@ -11,11 +11,11 @@ public class Employee {
     }
     //设置age的值
     public void emAge(int emAge){
-        age=emAge;
+        age = emAge;
     }
     //设置designation的值
     public void empDesignation(String empDesig){
-        designation=empDesig;
+        designation = empDesig;
     }
     //设置salary的值
     public void empSalary(double empSalary){

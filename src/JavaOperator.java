@@ -30,28 +30,28 @@ public class JavaOperator {
 
         //逻辑运算符
         System.out.println("逻辑运算符：");
-        int e = 60; /* 60 = 0011 1100 */
-        int f = 13; /* 13 = 0000 1101 */
+        int e = 60;
+        int f = 13;
         int g = 0;
-        g = e & f;       /* 12 = 0000 1100 */
+        g = e & f;
         System.out.println("e & f = " + g );
 
-        g = e | f;       /* 61 = 0011 1101 */
+        g = e | f;
         System.out.println("e | f = " + g );
 
-        g = e ^ f;       /* 49 = 0011 0001 */
+        g = e ^ f;
         System.out.println("e ^ f = " + g );
 
-        g = ~e;          /*-61 = 1100 0011 */
+        g = ~e;
         System.out.println("~e = " + g );
 
-        g = e << 2;     /* 240 = 1111 0000 */
+        g = e << 2;
         System.out.println("e << 2 = " + g );
 
-        g = e >> 2;     /* 15 = 1111 */
+        g = e >> 2;
         System.out.println("e >> 2  = " + g );
 
-        g = e >>> 2;     /* 15 = 0000 1111 */
+        g = e >>> 2;
         System.out.println("e >>> 2 = " + g );
 
         //位运算符
